@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Version>1.1.0</Version>
-    <Authors>vDependencyResolver</Authors>
-    <Company>vDependencyResolver</Company>
+    <Version>1.2.0</Version>
+    <Authors>Vikas Sharma</Authors>
+    <Company>Vikas Sharma</Company>
+    <Description>MEF based dependency resolver for ASP.NET core projects.
+For more details please visit : https://github.com/vikas0sharma/vDependencyResolver</Description>
   </PropertyGroup>
 
   <ItemGroup>
