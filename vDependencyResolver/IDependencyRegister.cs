@@ -19,5 +19,13 @@
         void AddTransient<TService, TImplementation>()
             where TService : class
             where TImplementation : class, TService;
+
+        void AddTransientForMultiImplementation<TService, TImplementation>()
+            where TService : class
+            where TImplementation : class, TService;
+
+        void AddScopedForMultiImplementation<TService, TImplementation>()
+            where TService : class
+            where TImplementation : class, TService;
     }
 }

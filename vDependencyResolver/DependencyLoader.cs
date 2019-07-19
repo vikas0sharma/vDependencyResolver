@@ -11,7 +11,7 @@ namespace vDependencyResolver
 {
     public static class DependencyLoader
     {
-        public static void LoadDependencies(IServiceCollection serviceCollection, string path, string pattern)
+        public static void LoadDependencies(this IServiceCollection serviceCollection, string path, string pattern)
         {
             var dirCat = new DirectoryCatalog(path, pattern);
             var importDef = BuildImportDefinition();
